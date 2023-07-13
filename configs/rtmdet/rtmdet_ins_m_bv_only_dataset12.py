@@ -68,3 +68,6 @@ test_evaluator = dict(
         'segm',
     ],
     )
+
+# We can use the pre-trained Mask RCNN model to obtain higher performance
+load_from = '/mmdetection/hubmap_hv/pretrained/mmdet/rtmdet-ins_m_8xb32-300e_coco_20221123_001039-6eba602e.pth'

@@ -9,6 +9,7 @@ elif [ "$1" == "dgx3" ]; then
     IMAGES="/u01/data/thanhtt/data/kaggle/hubmap_hv"
     OUTPUT="/u01/data/thanhtt/data/kaggle/hubmap_hv/outputs/mmdet"
     CONFIG="/u01/data/thanhtt/repos/Kaggle/hubmap_hv/mmdetection/configs"
+    DOCKER_IMAGE="mmdet_v0.1"
 
 else
     echo "Unknown server"
