@@ -7,7 +7,7 @@ model = dict(
     )
 )
 
-dataset_type = 'COCODataset'
+dataset_type = 'CocoDataset'
 classes = ('blood_vessel',)
 data_root='/mmdetection/hubmap_hv'
 
