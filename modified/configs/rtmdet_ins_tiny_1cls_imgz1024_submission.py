@@ -1,5 +1,5 @@
 # the new config inherits the base configs to highlight the necessary modification
-_base_ = '/kaggle/input/mmdetection/mmdetection/configs/rtmdet-ins_tiny_8xb32-300e_coco.py'
+_base_ = '/kaggle/input/hubmap-hhv-packages/mmdetection/mmdetection/configs/rtmdet/rtmdet-ins_tiny_8xb32-300e_coco.py'
 
 # checkpoint = 'hubmap_hv/pretrained/mmdet/cspnext-tiny_imagenet_600e.pth'  # noqa
 
