@@ -1,4 +1,4 @@
-_base_ = ['/kaggle/input/hubmap-hhv-packages/mmdetection/mmdetection/mask2former_swin-t-p4-w7-224_8xb2-lsj-50e_coco.py']
+_base_ = ['/kaggle/input/hubmap-hhv-packages/mmdetection/mmdetection/configs/mask2former/mask2former_swin-t-p4-w7-224_8xb2-lsj-50e_coco.py']
 
 model = dict(
     panoptic_head=dict(
