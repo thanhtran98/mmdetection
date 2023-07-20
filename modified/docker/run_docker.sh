@@ -3,13 +3,13 @@ if [ "$1" == "local" ]; then
     IMAGES="/media/bvdc1/data1/thanhtt_data/Kaggle/competitions/hubmap_hv"
     OUTPUT="/media/bvdc1/data1/thanhtt_data/Kaggle/competitions/hubmap_hv/outputs/mmdet"
     CONFIG="/home/bvdc1/thanhtt/repos/Kaggle/hubmap_hv/mmdetection/configs"
-    DOCKER_IMAGE="mmdet_v0.1"
+    DOCKER_IMAGE="mmdet:0.1"
 elif [ "$1" == "dgx3" ]; then
     SOURCE="/u01/data/thanhtt/repos/Kaggle/hubmap_hv/mmdetection/modified"
     IMAGES="/u01/data/thanhtt/data/kaggle/hubmap_hv"
     OUTPUT="/u01/data/thanhtt/data/kaggle/hubmap_hv/outputs/mmdet"
     CONFIG="/u01/data/thanhtt/repos/Kaggle/hubmap_hv/mmdetection/configs"
-    DOCKER_IMAGE="mmdet_v0.1"
+    DOCKER_IMAGE="mmdet:0.1"
 
 else
     echo "Unknown server"

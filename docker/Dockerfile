@@ -38,3 +38,6 @@ RUN conda clean --all \
     && pip install --no-cache-dir -e .
 
 WORKDIR /mmdetection
+
+# Build
+# t=mmdet:0.1 sudo docker build -f docker/Dockerfile -t $t .
